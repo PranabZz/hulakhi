@@ -131,7 +131,7 @@ Example:
 ```php
 
 Hulakhi::subscribe('test@example.com');
-Hulakhi::notifyAll('Test Subject', 'Test Description', '', 'https://example.com');
+Hulakhi::notifySubscribers('Test Subject', 'Test Description', '', 'https://example.com');
 ``` 
 
 ### Contributing
