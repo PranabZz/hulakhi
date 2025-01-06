@@ -21,7 +21,7 @@ class HulakhiServiceProvider extends ServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/../views/' => resource_path('views/vendor/hulakhi'),
+            __DIR__ . '/../views/' => resource_path('views/hulakhi'),
         ], 'views');
 
         $this->loadViewsFrom(__DIR__ . '/../views', 'hulakhi');
